@@ -23,3 +23,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+actual_art
+create_contact_sheet.py
+filter_images.py
