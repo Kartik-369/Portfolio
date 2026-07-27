@@ -6,6 +6,7 @@ export default function Navbar() {
       <div className="nav-inner max-w-[var(--maxw)] mx-auto px-8 py-5 flex items-center justify-between flex-wrap gap-4 relative z-10 max-[760px]:flex-col max-[760px]:items-start max-[760px]:py-4 max-[760px]:px-6">
         <div className="nav-mark font-mono font-semibold text-[14px] tracking-[0.04em]">
           KARTIK<span className="text-emerald-600">.</span>PADIA
+          <img src="/ic.png" alt="Kartik Padia" className="p-2 w-15 h-15 inline" />
         </div>
         <ul className="nav-links flex gap-8 m-0 p-0 list-none font-mono text-[13px] max-[760px]:gap-5 max-[760px]:w-full max-[760px]:overflow-x-auto max-[760px]:pb-1">
           <li>
