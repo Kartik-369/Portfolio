@@ -4,13 +4,13 @@ export default function Hero() {
   return (
     <section className="hero relative pt-[50px] pb-[120px] border-t-0 overflow-hidden">
       {/* Absolute positioned image container for the right space */}
-      <div className="absolute right-0 top-60 lg:right-12 md:top-0 h-30 md:h-90 pointer-events-none lg:h-150">
+      {/* <div className="absolute right-0 top-60 lg:right-12 md:top-0 h-30 md:h-90 pointer-events-none lg:h-150">
         <img
           src="/wolf_hero.png"
           alt="Hero background graphic"
           className="w-full h-full object-cover object-center"
         />
-      </div>
+      </div>*/}
 
       <div className="wrap hero-inner relative z-10">
         <div className="eyebrow mb-8">
