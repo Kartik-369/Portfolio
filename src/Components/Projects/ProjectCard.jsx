@@ -24,9 +24,9 @@ export default function ProjectCard({
   };
 
   return (
-    <div className={`project border-t border-zinc-200 mx-[-24px] px-[24px] transition-colors duration-400 hover:bg-emerald-50 last:border-b ${isOpen ? 'open' : ''}`}>
+    <div className={`project border-t border-zinc-200 mx-[-24px] px-[24px] max-md:mx-0 max-md:px-4 transition-colors duration-400 hover:bg-emerald-50 last:border-b ${isOpen ? 'open' : ''}`}>
       <button 
-        className="project-head py-[36px] grid grid-cols-[1fr_auto_auto] gap-[24px] items-center cursor-pointer bg-transparent border-none w-full text-left font-inherit text-inherit group"
+        className="project-head py-[36px] max-md:py-[24px] grid grid-cols-[1fr_auto_auto] max-sm:grid-cols-[1fr_auto] gap-[24px] max-md:gap-[16px] items-center cursor-pointer bg-transparent border-none w-full text-left font-inherit text-inherit group"
         aria-expanded={isOpen}
         onClick={onToggle}
       >
@@ -46,7 +46,7 @@ export default function ProjectCard({
             {stack}
           </div>
         </div>
-        <div className="project-tag font-mono text-[11.5px] text-zinc-600 border border-zinc-200 px-[12px] py-[6px] whitespace-nowrap justify-self-end bg-zinc-50/80">
+        <div className="project-tag font-mono text-[11.5px] text-zinc-600 border border-zinc-200 px-[12px] py-[6px] whitespace-nowrap justify-self-end bg-zinc-50/80 max-sm:hidden">
           {tag}
         </div>
         <div className={`project-toggle w-[38px] h-[38px] border border-zinc-900 rounded-full flex items-center justify-center relative shrink-0 transition-all duration-300 ease-[cubic-bezier(0.34,1.56,0.64,1)] group-hover:scale-110 group-hover:border-emerald-600 ${isOpen ? 'bg-zinc-900 border-zinc-900 scale-100' : ''}`}>

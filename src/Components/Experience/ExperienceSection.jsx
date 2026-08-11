@@ -17,7 +17,7 @@ export default function ExperienceSection() {
         </div>
 
         <div className="reveal">
-          <div className="exp-row grid grid-cols-[200px_1fr] gap-[40px] py-[32px] border-t border-zinc-200 transition-all duration-300 hover:bg-emerald-50 hover:mx-[-24px] hover:px-[24px] border-b max-[700px]:grid-cols-1 max-[700px]:gap-[16px]">
+          <div className="exp-row grid grid-cols-[200px_1fr] gap-[40px] py-[32px] border-t border-zinc-200 transition-all duration-300 hover:bg-emerald-50 hover:mx-[-24px] hover:px-[24px] max-md:hover:mx-0 max-md:hover:px-4 border-b max-[700px]:grid-cols-1 max-[700px]:gap-[16px]">
             <div className="exp-date font-mono text-[13px] text-zinc-500 mt-[6px]">Jul 2025 — Oct 2025</div>
             <div>
               <h3 className="exp-role font-display text-[24px] m-0 mb-[8px] tracking-[-0.01em]">Machine Learning Intern</h3>
