@@ -19,6 +19,9 @@ export default function ContactFooter() {
             <a className="contact-link font-mono text-[14px] border border-zinc-200 bg-zinc-100/60 backdrop-blur-[4px] px-[20px] py-[12px] no-underline transition-all duration-300 hover:border-emerald-600 hover:bg-white hover:-translate-y-[2px]" href="https://github.com/kartik-369" target="_blank" rel="noopener noreferrer">
               GitHub ↗
             </a>
+            <a className="contact-link font-mono text-[14px] border border-zinc-200 bg-zinc-100/60 backdrop-blur-[4px] px-[20px] py-[12px] no-underline transition-all duration-300 hover:border-emerald-600 hover:bg-white hover:-translate-y-[2px]" href="https://linktr.ee/KartikPadia36" target="_blank" rel="noopener noreferrer">
+              Linktree ↗
+            </a>
           </div>
         </div>
         <div className="foot-bottom flex justify-between items-center font-mono text-[12.5px] text-zinc-500 flex-wrap gap-[16px] pt-[32px] border-t border-zinc-200">

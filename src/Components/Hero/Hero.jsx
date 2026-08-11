@@ -34,6 +34,9 @@ export default function Hero() {
           <a className="btn ghost font-mono text-[13.5px] px-6 py-[14px] no-underline border border-zinc-900 bg-zinc-50/50 backdrop-blur-[4px] transition-all duration-300 inline-flex items-center gap-2 hover:-translate-y-[2px] hover:bg-zinc-100" href="https://github.com/kartik-369" target="_blank" rel="noopener noreferrer">
             GitHub ↗
           </a>
+          <a className="btn ghost font-mono text-[13.5px] px-6 py-[14px] no-underline border border-zinc-900 bg-zinc-50/50 backdrop-blur-[4px] transition-all duration-300 inline-flex items-center gap-2 hover:-translate-y-[2px] hover:bg-zinc-100" href="https://linktr.ee/KartikPadia36" target="_blank" rel="noopener noreferrer">
+            Linktree ↗
+          </a>
         </div>
         <div className="hero-meta mt-[72px] flex gap-12 flex-wrap font-mono text-[12.5px] text-zinc-500 opacity-0 animate-[fadeUp_0.9s_ease_forwards]" style={{ animationDelay: '1.05s' }}>
           <div><strong className="text-zinc-900 font-medium">2</strong> shipped projects</div>
