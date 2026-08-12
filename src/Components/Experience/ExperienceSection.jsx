@@ -35,6 +35,23 @@ export default function ExperienceSection() {
             </div>
           </div>
         </div>
+
+        <div className="reveal">
+          <div className="exp-row grid grid-cols-[200px_1fr] gap-[40px] py-[32px] border-t border-zinc-200 transition-all duration-300 hover:bg-emerald-50 hover:mx-[-24px] hover:px-[24px] max-md:hover:mx-0 max-md:hover:px-4 border-b max-[700px]:grid-cols-1 max-[700px]:gap-[16px]">
+            <div className="exp-date font-mono text-[13px] text-zinc-500 mt-[6px]">Jul 2026 — ongoing</div>
+            <div>
+              <h3 className="exp-role font-display text-[24px] m-0 mb-[8px] tracking-[-0.01em]">Teaching Assistant (Java & OOP concepts)</h3>
+              <div className="exp-org font-mono text-[13.5px] text-emerald-600 mb-[18px] inline-flex items-center gap-[12px]">
+                Darshan University
+              </div>
+              <ul className="exp-list m-0 pl-[18px] text-zinc-600 text-[15px]">
+                <li className="mb-[8px] pl-[6px]">Translating abstract OOP theories (Polymorphism, Abstraction, Encapsulation, Inheritance) into practical, real-world Java applications.</li>
+                <li className="mb-[8px] pl-[6px]">Helping students trace complex runtime errors, logical bugs, and NullPointerExceptions during high-pressure lab hours.</li>
+                <li className="mb-[8px] pl-[6px]">Guiding students through industry-standard IDEs (IntelliJ IDEA, Eclipse) and teaching them how to use debugging tools, Git for version control, and basic project management.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
