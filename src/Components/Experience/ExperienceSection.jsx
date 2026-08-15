@@ -46,7 +46,7 @@ export default function ExperienceSection() {
               </div>
               <ul className="exp-list m-0 pl-[18px] text-zinc-600 text-[15px]">
                 <li className="mb-[8px] pl-[6px]">Translating abstract OOP theories (Polymorphism, Abstraction, Encapsulation, Inheritance) into practical, real-world Java applications.</li>
-                <li className="mb-[8px] pl-[6px]">Helping students trace complex runtime errors, logical bugs, and NullPointerExceptions during high-pressure lab hours.</li>
+                <li className="mb-[8px] pl-[6px]">Helping students trace complex runtime errors, logical bugs, and exceptions.</li>
                 <li className="mb-[8px] pl-[6px]">Guiding students through industry-standard IDEs (IntelliJ IDEA, Eclipse) and teaching them how to use debugging tools, Git for version control, and basic project management.</li>
               </ul>
             </div>
