@@ -49,9 +49,9 @@ export default function ProjectCard({
         <div className="project-tag font-mono text-[11.5px] text-zinc-600 border border-zinc-200 px-[12px] py-[6px] whitespace-nowrap justify-self-end bg-zinc-50/80 max-sm:hidden">
           {tag}
         </div>
-        <div className={`project-toggle w-[38px] h-[38px] border border-zinc-900 rounded-full flex items-center justify-center relative shrink-0 transition-all duration-300 ease-[cubic-bezier(0.34,1.56,0.64,1)] group-hover:scale-110 group-hover:border-emerald-600 ${isOpen ? 'bg-zinc-900 border-zinc-900 scale-100' : ''}`}>
-          <div className={`absolute bg-zinc-900 w-[14px] h-[1.5px] transition-all duration-300 ${isOpen ? 'bg-white' : ''}`}></div>
-          <div className={`absolute bg-zinc-900 w-[1.5px] h-[14px] transition-all duration-300 ${isOpen ? 'scale-y-0' : ''}`}></div>
+        <div className={`project-toggle w-[38px] h-[38px] border border-zinc-900 rounded-full flex items-center justify-center relative shrink-0 transition-all duration-300 ease-[cubic-bezier(0.34,1.56,0.64,1)] group-hover:scale-110 group-hover:border-emerald-600 ${isOpen ? 'bg-zinc-900 border-white scale-100' : ''}`}>
+          <div className={`absolute w-[14px] h-[1.5px] transition-all duration-300 ${isOpen ? 'bg-white' : 'bg-zinc-900'}`}></div>
+          <div className={`absolute w-[1.5px] h-[14px] transition-all duration-300 ${isOpen ? 'scale-y-0' : 'bg-zinc-900'}`}></div>
         </div>
       </button>
       
